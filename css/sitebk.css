@@ -1,0 +1,47 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background: url(../imgs/bg.jpg);
+  font-family: 'Lato';
+  line-height: 1;
+  color: white;
+}
+main{
+ width: 60%;
+ background: #f3dfa42e;
+ padding: 11px 30px;
+ margin: 0 auto;
+ border-radius: 15px;
+}
+.logo, .texto, .combo {
+ text-align: center;
+}
+.combo {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.combo img {
+  padding: 10px;
+}
+.cardapio {
+  margin: 28px auto;
+  text-align: center;
+  width: 100%;
+}
+.cardapio table {
+  background: #f32f2f59;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  position: relative;
+}
+.pedido {
+  text-align: center;
+  color: yellow;
+}
+a {
+  text-decoration: none;
+}
